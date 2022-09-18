@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+}
+header{
+    height: 3.5rem;
+    width: 100vw;
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    border: 0.1rem solid rgba(#817d7dc4);
+}
+.design{
+    font-weight: 700;
+    margin-left: 2rem;
+}
+.agency{
+    font-weight: lighter;
+}
+ul{
+    list-style: none;
+    position: absolute;
+    left: 70%;
+    width: 60vw;
+}
+li{
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: #808080;
+}
+main{
+    height: 80vh;
+    background: url(../img/nat-1-large.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+.write{
+    background-color: rgba(71, 202, 71, 0.7);
+    position: absolute;
+    top: 40%;
+    left: 0;
+    height: 8rem;
+    color: rgba(255, 255, 255, 0.651);
+    padding: 2rem 1rem 1rem 2.5rem ;
+    text-align: justify;
+
+}
+.arrow{
+    background-color: rgba(71, 202, 71, 0.7);
+    position: absolute;
+    top: 40%;
+    right: 0;
+    height: 8rem;
+    width: 3rem;
+    padding: .5rem;
+}
+img{
+    transform: rotate(90deg);
+    width: 2rem;
+    height: fit-content;
+    position: absolute;
+    top: 35%;
+    
+}
+h3{
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    margin-top: 4px;
+}
+.footer{
+    text-align: center;
+}
+.btn{
+    background-color: green;
+    border: none;
+    padding: 5px;
+    color: white;
+    width: 120px;
+    height: 25px;
+}
+.btn:hover{
+    background-color: lightgreen;
+    color: white;
+    transition: 2s;
+}
